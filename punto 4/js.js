@@ -8,6 +8,8 @@ if (marca === "Honda" || marca == "honda" || marca == "HONDA") {
     descuento = 0.08; //8%
 } else if (marca === "Susuki" || marca == "susuki" || marca == "SUSUKI") {
     descuento = 0.1; //10%
+} else{
+    descuento = 0.02;
 }
 
 let descuentoAplicado = precio * descuento
